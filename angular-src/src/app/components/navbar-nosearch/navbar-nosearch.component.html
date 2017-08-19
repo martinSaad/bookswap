@@ -1,0 +1,61 @@
+<div class="main-nav-wrapper nav-wrapper-1-landingpage">
+  <nav>
+    <div class="main-nav main-nav-1 landing-page">
+      <div class="container">
+        <div class="nav-logo"><a href="/"><img src="assets/images/logo-10-white.svg" alt="Wolverine"></a></div>
+        <div class="nav-logo logo-2"><a href="/"><img src="assets/images/logo-9.svg" alt="Wolverine" class="logo-2"></a></div>
+        <ul class="nav-main-menu">
+
+          <li *ngIf="authService.loggedIn()" [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/profile">My books</a>
+          </li>
+
+          <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+              [routerLinkActiveOptions] = "{exact:true}"><a href="/register">Register</a></li>
+
+          <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+              [routerLinkActiveOptions] = "{exact:true}"><a href="/login">Login</a></li>
+
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/about">About</a>
+          </li>
+
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/how-it-works">How it works</a>
+          </li>
+
+          <li *ngIf="authService.loggedIn()"><a (click)="logOut()" href="/">Logout</a></li>
+        </ul>
+
+        <ul class="nav-main-menu small-screen">
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/profile">My books</a>
+          </li>
+
+          <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+              [routerLinkActiveOptions] = "{exact:true}"><a href="/register">Register</a></li>
+
+          <li *ngIf="!authService.loggedIn()" [routerLinkActive]="['active']"
+              [routerLinkActiveOptions] = "{exact:true}"><a href="/login">Login</a></li>
+
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/about">About</a>
+          </li>
+
+          <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}">
+            <a href="/how-it-works">How it works</a>
+          </li>
+
+          <li *ngIf="authService.loggedIn()"><a (click)="logOut()" href="/">Logout</a></li>
+        </ul>
+        <div class="nav-hamburger-wrapper">
+          <div class="cell-vertical-wrapper">
+            <div class="cell-middle">
+              <div class="nav-hamburger"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
