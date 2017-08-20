@@ -2,9 +2,7 @@
  * Created by martinsaad on 01/08/2017.
  */
 module.exports = {
-    host: 'in-v3.mailjet.com',
-    port: 587,
-    secure: false,
-    username: '40a40240bcfb7fcf7f7534da6af8ce81',
-    password: 'f2bf39c64c30278401bbe75ef431ee2f'
+    SENDGRID_USERNAME: "app75197953@heroku.com",
+    SENDGRID_PASSWORD: "aeelveij7593",
+    SENDGRID_API_KEY: "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"
 };

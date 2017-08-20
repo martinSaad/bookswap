@@ -3,7 +3,7 @@ const router = express.Router();
 const jwt = require('jsonwebtoken');
 const passport = require('passport');
 const Book = require('../models/book');
-const Email = require('../services/email');
+const sendgridService = require('../services/sendgridService');
 
 
 router.get('/search', function (req, res, next) {
@@ -104,11 +104,14 @@ router.post('/email', passport.authenticate('jwt', {session:false}), function (r
             bookTitle: req.body.bookTitle
         };
 
-        Email.sendEmail(email.emailFrom, email.nameFrom, email.emailTo, email.nameTo, email.message, email.bookTitle, function (err, info) {
+        sendgridService.sendEmail(email.emailFrom, email.nameFrom, email.emailTo, email.nameTo, email.message, email.bookTitle, function (err, response) {
+            console.log(response.statusCode);
+            console.log(response.body);
+            console.log(response.headers);
             if (err)
                 return res.status(400).json({success: false, message: err});
             else{
-                return res.status(200).json({success: true, message: info});
+                return res.status(200).json({success: true, message: response});
             }
         });
     } else{
