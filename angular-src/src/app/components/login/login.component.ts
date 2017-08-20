@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
 import {FlashMessagesService} from "angular2-flash-messages";
+import {ValidateService} from "../../services/validate.service";
+import {MdDialog, MdDialogConfig, DialogPosition} from "@angular/material";
 
 @Component({
   selector: 'app-login',
@@ -10,34 +12,40 @@ import {FlashMessagesService} from "angular2-flash-messages";
 })
 export class LoginComponent implements OnInit {
 
-  username: String;
+  email: String;
   password: String;
+  error: boolean = false;
 
   constructor(private authService: AuthService,
               private router: Router,
-              private flushMessage: FlashMessagesService
-  ) { }
+              private validateService: ValidateService) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   onLoginSubmit(){
     const user = {
-      username: this.username,
+      email: this.email,
       password: this.password
-    }
+    };
 
     this.authService.authenticateUser(user).subscribe(data => {
       if (data.success){
         this.authService.storeUserDate(data.token, data.user);
-        this.flushMessage.show('You are now logged in', {cssClass: 'alert-success', timeout:5000});
-        this.router.navigate(['/dashboard'])
+        this.error = false;
+        this.router.navigate(['']);
       }
       else{
-        this.flushMessage.show(data.msg, {cssClass: 'alert-danger', timeout:5000});
-        this.router.navigate(['/login'])
+        this.error = true;
+      }
+    }, err => {
+      if (err._body){
+        this.error = true;
+        let response = JSON.stringify(err._body);
+        console.log("error login in: " + response);
+      }
+      else{
+        console.log("error login in: " + JSON.stringify(err));
       }
     })
   }
-
 }

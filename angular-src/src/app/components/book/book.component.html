@@ -1,0 +1,43 @@
+<app-navbar-nosearch></app-navbar-nosearch>
+<main>
+  <section>
+    <header class="section-header header-type-1 style-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2>{{book?.title}}</h2>
+            <h5 class="heading-icon-2">{{book?.authors}}</h5>
+            <p class="header-caption">{{book?.description}}</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="service-section-01">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 image-container section-block"><img src="{{book?.imageLink}}" alt="service"></div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-10">
+                <h5>Book owner: {{book?.firstName}} {{book?.lastName}}</h5>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 content-container section-block">
+            <div class="service-button">
+              <button *ngIf="!getBookButton" (click)="getBook()" class="border-btn border-btn-main btn-size-5">Get this book</button>
+              <input *ngIf="getBookButton" class="mytext" [(ngModel)]="message" id="message" type="text" value="Hey {{book?.firstName}}, I saw your book {{book?.title}} on Bookswap and I would like to get it.">
+              <button *ngIf="getBookButton" (click)="sendEmail()" class="border-btn border-btn-main btn-size-5">Send</button>
+              <h3 *ngIf="emailSent">Email has been sent to {{book?.firstName}}!</h3>
+              <h3 *ngIf="errorSendingMail" class="err-message">{{errorMessage}}</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {ValidateService} from '../../services/validate.service'
-import {FlashMessagesService} from 'angular2-flash-messages'
+import {Component, OnInit} from "@angular/core";
+import {FlashMessagesService} from "angular2-flash-messages";
 import {AuthService} from "../../services/auth.service";
 import {Router} from "@angular/router";
 
@@ -11,47 +10,45 @@ import {Router} from "@angular/router";
 })
 export class RegisterComponent implements OnInit {
 
-  name: String;
-  username: String;
+  firstName: String;
+  lastName: String;
   password: String;
   email: String;
+  passwordConfirm: String;
+  passConfirm: boolean = false;
+  error: boolean = false;
+  registerForm: any;
 
-  constructor(private validateService: ValidateService,
-              private flushMessage: FlashMessagesService,
-              private authService: AuthService,
+  constructor(private authService: AuthService,
               private router: Router) { }
 
   ngOnInit() {
   }
 
   onRegisterSubmit(){
+
+    if (this.password != this.passwordConfirm){
+      this.passConfirm = true;
+      this.password = null;
+      this.passwordConfirm = null;
+      return false;
+    }
+
     const user = {
-      name: this.name,
-      username: this.username,
+      firstName: this.firstName,
+      lastName: this.lastName,
       email: this.email,
       password: this.password
-    }
+    };
 
-    //required fields
-    if (!this.validateService.validateRegister(user)){
-      this.flushMessage.show('Please fill in all fields', {cssClass: 'alert-danger', timeout:3000});
-      return false;
-    }
-
-    if (!this.validateService.validateEmail(user.email)){
-      this.flushMessage.show('Please use a valid email', {cssClass: 'alert-danger', timeout:3000});
-      return false;
-    }
-
-    //Register user
     this.authService.registerUser(user).subscribe(data => {
         if (data.success){
-          this.flushMessage.show('You are now registered', {cssClass: 'alert-success', timeout:3000});
+          this.passConfirm = false;
+          this.error = false;
           this.router.navigate(['/login'])
         }
         else{
-          this.flushMessage.show('Something went worng', {cssClass: 'alert-danger', timeout:3000});
-          this.router.navigate(['/register'])
+              this.error = true;
         }
       }
     );

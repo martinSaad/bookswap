@@ -1,7 +1,110 @@
-<div *ngIf="user">
-  <h2 class="page-header">{{user.name}}</h2>
-  <ul class="list-group">
-    <li class="list-group-item">Username: {{user.username}}</li>
-    <li class="list-group-item">Email: {{user.email}}</li>
-  </ul>
-</div>
+<app-navbar-nosearch></app-navbar-nosearch>
+<main>
+
+
+  <section class="bgc-gray">
+    <header class="section-header">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 col-md-12 text-center">
+
+            <h2 class="smb">What is ISBN?</h2>
+            <p>
+              ISBN is a unique numeric commercial book identifier.<br>
+              An ISBN can be found usually in the back of the book, and will look like this:<br>
+              <img src="../../../assets/images/svg/EAN-13-ISBN-13.svg">
+            </p>
+
+            <h2 class="smb">Add a book</h2>
+            <br>
+            <br>
+            <h5 class="error-message" *ngIf="bookNotFound">We couldn't find the book information, please try again later</h5>
+            <form #bookForm="ngForm" (ngSubmit)="onAddBookSubmit()">
+                <div>
+                  <label>ISBN</label>
+                  <input type="tel" pattern="[0-9]*" name="isbn" [(ngModel)]="isbn" id="isbn" class="form-control"
+                         required minlength="10" maxlength="13" #isbn1="ngModel">
+                  <div *ngIf="isbn1.errors && (isbn1.dirty || isbn1.touched)"
+                       class="alert alert-danger">
+                    <div [hidden]="!isbn1.errors.required">
+                      Isbn is required
+                    </div>
+                    <div [hidden]="!isbn1.errors.minlength">
+                      Isbn must be at least 10 digit long.
+                    </div>
+                    <div [hidden]="!isbn1.errors.maxlength">
+                      Name cannot be more than 13 digit long.
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label>Country</label>
+                  <select placeholder="Country" class="form-control" name="country" [(ngModel)]="country" required
+                          #country1="ngModel">
+                    <option *ngFor="let c of countries" [value]="c">{{c}}</option>
+                  </select>
+                  <div *ngIf="country1.errors && (country1.dirty || country1.touched)" class="alert alert-danger">
+                    <div [hidden]="!country1.errors.required">Country is required</div>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="city">City</label>
+                  <input type="text" name="city" [(ngModel)]="city" id="city" class="form-control"
+                         required #city1="ngModel">
+                  <div *ngIf="city1.errors && (city1.dirty || city1.touched)"
+                       class="alert alert-danger">
+                    <div [hidden]="!city1.errors.required">
+                      City is required
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label>Condition</label>
+                  <select placeholder="Condition" class="form-control"
+                          name="condition" [(ngModel)]="condition" required #condition1="ngModel">
+                    <option *ngFor="let c of conditions" [value]="c">{{c}}</option>
+                  </select>
+
+                  <div *ngIf="condition1.errors && (condition1.dirty || condition1.touched)" class="alert alert-danger">
+                    <div [hidden]="!condition1.errors.required">Condition is required</div>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-default"
+                        [disabled]="!bookForm.form.valid">Submit
+                </button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <br>
+    <br>
+    <div class="container-fluid">
+      <h2 class="smb">My books:</h2>
+      <br>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let book of books">
+        <div class="index-demo-item section-block-p">
+          <div class="image-frame">
+            <a [routerLink]="['/book']" [queryParams]="{id: book._id}">
+              <img src="{{book?.imageLink}}" alt="{{book?.title}}" class="img-center">
+            </a>
+          </div>
+          <h5>
+            <a [routerLink]="['/book']" [queryParams]="{id: book._id}">
+              {{book?.title}}
+            </a>
+          </h5>
+          <button class="normal-btn normal-btn-main section-block btn-size-6" (click)="onDeleteBook(book._id)">Delete
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<app-footer></app-footer>

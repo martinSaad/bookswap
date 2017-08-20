@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/app.js" libraries="{node-DefinitelyTyped}" />
     <file url="file://$PROJECT_DIR$/models/user.js" libraries="{node-DefinitelyTyped}" />
     <includedPredefinedLibrary name="ECMAScript 6" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
