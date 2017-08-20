@@ -1,12 +1,49 @@
-<h2 class="page-header">Login</h2>
-<form (submit)="onLoginSubmit()">
-  <div class="form-group">
-    <label>Username</label>
-    <input type="text" class="form-control" [(ngModel)]="username" name="username">
+<app-navbar-nosearch></app-navbar-nosearch>
+<section class="one-child page-under-construction-3-wrapper">
+  <div data-stellar-background-ratio="0.25" style="background-image: url('../../../assets/images/books header.jpeg');" class="page-common-background"></div>
+  <div class="page-login-wrapper">
+    <div class="page-login">
+      <form #loginForm="ngForm" (ngSubmit)="onLoginSubmit()">
+        <h3>WELCOME BACK!</h3>
+        <br>
+        <h5 class="error-message" *ngIf="error">User or password are incorrect</h5>
+
+        <div class="infor"><span class="icon"><i class="icon-user"></i></span>
+          <input type="email" placeholder="Email Address" [(ngModel)]="email" name="email" required #email1="ngModel">
+          <div *ngIf="email1.errors && (email1.dirty || email1.touched)"
+               class="alert alert-danger">
+            <div [hidden]="!email1.errors.required">
+              Email Address is required
+            </div>
+          </div>
+        </div>
+
+        <div class="infor"><span class="icon"><i class="icon-key"></i></span>
+          <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required #pass1="ngModel">
+          <div *ngIf="pass1.errors && (pass1.dirty || pass1.touched)"
+               class="alert alert-danger">
+            <div [hidden]="!pass1.errors.required">
+              Password is required
+            </div>
+          </div>
+        </div>
+
+        <div class="remember">
+          <label class="checkbox">
+            <input type="checkbox"><span></span>
+          </label>
+          <p>Remember me</p>
+        </div>
+
+        <div class="button">
+          <button type="submit" class="normal-btn normal-btn-main btn-size-5"
+                  [disabled]="!loginForm.form.valid">Submit
+          </button>
+        </div>
+
+        <div class="button"><a [routerLink]="['/register']" class="border-btn border-btn-lightgray btn-size-5">REGISTER</a></div>
+        <!--<a href="#" class="forgotpass">Forgotten password?</a>-->
+      </form>
+    </div>
   </div>
-  <div class="form-group">
-    <label>Password</label>
-    <input type="password" class="form-control" [(ngModel)]="password" name="password">
-  </div>
-  <input type="submit" class="btn btn-primary" value="Login">
-</form>
+</section>

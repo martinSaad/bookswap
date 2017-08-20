@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83be3adc-4f4d-4178-8d9a-f29961223413" name="Default" comment="" />
+    <list default="true" id="83be3adc-4f4d-4178-8d9a-f29961223413" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/sendgridService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/email.js" afterPath="$PROJECT_DIR$/config/email.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/books.js" afterPath="$PROJECT_DIR$/routes/books.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,13 +22,110 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="meanApp" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-src/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/email.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="email.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/email.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendgridService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/sendgridService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="books.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/books.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/angular-src/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -33,6 +136,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
@@ -40,37 +144,117 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CONFIG</find>
+      <find>vendors</find>
+      <find>assets/images</find>
+      <find>sticky-nav</find>
+      <find>main-nav</find>
+      <find>favicon</find>
+      <find>jquery§§</find>
+      <find>fullPage</find>
+      <find>../../../</find>
+      <find>link</find>
+      <find>script</find>
+      <find>צשןמ&lt;div class=&quot;main-nav-wrapper nav-wrapper-1-landingpage&quot;&gt;--&gt;   &lt;!--&lt;nav&gt;--&gt;     &lt;!--&lt;div class=&quot;main-nav main-nav-1 landing-page&quot;&gt;--&gt;       &lt;!--&lt;div class=&quot;container&quot;&gt;--&gt;         &lt;!--&lt;div class=&quot;nav-logo&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;../../../assets/images/logo-10-white.svg&quot; alt=&quot;Wolverine&quot;&gt;&lt;/a&gt;&lt;/div&gt;--&gt;         &lt;!--&lt;div class=&quot;nav-logo logo-2&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;../../../assets/images/logo-9.svg&quot; alt=&quot;Wolverine&quot; class=&quot;logo-2&quot;&gt;&lt;/a&gt;&lt;/div&gt;--&gt;         &lt;!--&lt;div class=&quot;nav-top-search&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;search-trigger-show&quot;&gt;&lt;/a&gt;&lt;/div&gt;--&gt;         &lt;!--&lt;ul class=&quot;nav-main-menu&quot;&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;HOME&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-default.html&quot;&gt;DEFAULT&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CORPORATE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-corporate.html&quot;&gt;CORPORATE 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-corporate-2.html&quot;&gt;CORPORATE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-onepage.html&quot;&gt;ONEPAGE&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-menubottom.html&quot;&gt;MENU BOTTOM&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-agency.html&quot;&gt;AGENCY&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;ALTERNATIVE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-alternative.html&quot;&gt;ALTERNATIVE 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-alternative-2.html&quot;&gt;ALTERNATIVE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-slip-screen.html&quot;&gt;SLIPSCREEN&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BUSINESS&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-business.html&quot;&gt;BUSINESS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-business-2.html&quot;&gt;BUSINESS 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CREATIVE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-creative.html&quot;&gt;CREATIVE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-creative-2.html&quot;&gt;CREATIVE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-leftmenu.html&quot;&gt;LEFT MENU&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-portfolio.html&quot;&gt;PORTFOLIO&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BLOG&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-blog.html&quot;&gt;BLOG LARGE IMAGE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-blog-masonry.html&quot;&gt;BLOG MASONRY&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CLASSIC&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-classic.html&quot;&gt;CLASSIC 01&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-classic-2.html&quot;&gt;CLASSIC 02&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHOP&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-1.html&quot;&gt;SHOP 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-2.html&quot;&gt;SHOP 2&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-2-caro.html&quot;&gt;SHOP 2 CARO&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-3.html&quot;&gt;SHOP 3&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-3-caro.html&quot;&gt;SHOP 3 CARO&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;PAGES&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-about.html&quot;&gt;ABOUT US&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-about-2.html&quot;&gt;ABOUT US 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-contact.html&quot;&gt;CONTACT US&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-service.html&quot;&gt;SERVICES&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-service-2.html&quot;&gt;SERVICES 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-ourteam.html&quot;&gt;OUR TEAM&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-ourteam-2.html&quot;&gt;OUR TEAM 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-clients.html&quot;&gt;OUR CLIENTS&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-login.html&quot;&gt;LOGIN&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-register.html&quot;&gt;REGISTER&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction.html&quot;&gt;UNDER CONSTRUCTION&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction2.html&quot;&gt;UNDER CONSTRUCTION 02&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction3.html&quot;&gt;UNDER CONSTRUCTION 03&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404 ERROR&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;403.html&quot;&gt;403 ACCESS DENIED&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;500.html&quot;&gt;500 SERVER ERROR&lt;/a&gt;&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li class=&quot;mega-menu menu-5-col&quot;&gt;&lt;a href=&quot;#&quot;&gt;FEATURES&lt;/a&gt;--&gt;             &lt;!--&lt;ul class=&quot;mega-menu-content&quot;&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 01&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-button.html&quot;&gt;BUTTON&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-tabs.html&quot;&gt;TABS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-accordion.html&quot;&gt;ACCORDION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-message-box.html&quot;&gt;MESSAGE BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-blog-posts.html&quot;&gt;BLOG POSTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-call-to-action.html&quot;&gt;CALL TO ACTION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-coverbox.html&quot;&gt;COVER BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-team.html&quot;&gt;OUR TEAM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-portfolio.html&quot;&gt;PORTFOLIO&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-clients.html&quot;&gt;PARTNERS&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 02&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-icon-box.html&quot;&gt;ICON BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-icon-lists.html&quot;&gt;ICON LIST&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-contact-form.html&quot;&gt;CONTACT FORM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-parallax.html&quot;&gt;PARALLAX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-slider.html&quot;&gt;SLIDER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-counter.html&quot;&gt;COUNTER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-quotes.html&quot;&gt;QUOTES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-piechart.html&quot;&gt;PIE CHART&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-horizontal-progressbar.html&quot;&gt;HORIZONTAL PROGRESSBAR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-vertical-progressbar.html&quot;&gt;VERTICAL PROGRESSBAR&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 03&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-typography.html&quot;&gt;TYPOGRAPHY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-blockquotes.html&quot;&gt;BLOCK QUOTES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-hightlights.html&quot;&gt;HIGHLIGHTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-separator.html&quot;&gt;SEPARATOR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-dropcaps.html&quot;&gt;DROPCAPS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-column.html&quot;&gt;COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-heading.html&quot;&gt;HEADINGS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-testimonials.html&quot;&gt;TESTIMONIALS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-pricing-table.html&quot;&gt;PRICING TABLES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-interactive-banner.html&quot;&gt;BANNER&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;OUR FEATURES&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BOOTSTRAP 3 GRID SYSTEM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;HTML5 &amp; CSS3 ANIMATION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;AUTOMATE YOUR WORKFLOW&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;NODE TEMPLATE ENGINE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;LESS PRE-PROCESSOR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;DROPDOWN &amp; MEGAMENU&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;20 HEADER AND FOOTER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;03 COMINGSOON PAGES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;20+ PORTFOLIO DESIGN&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;15 BLOG DESIGN&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;OUR FEATURES&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FONT AWESOME READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;+1000 ICON FONTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FULLY RESPONSIVE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;TONS OF ELEMENTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;RETINA READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FREE GOOLGE FONTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;PARALAX BACKGROUND&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;WIDE &amp; BOXED LAYOUT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-leftmenu.html&quot;&gt;LEFT MENU READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-slip-screen.html&quot;&gt;SLIP SCREEN&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BLOG&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CLASSIC LAYOUT&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;GRID LAYOUT&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;MASONRY&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;GRAY&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SINGLE POST&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail-left-sidebar.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail-right-sidebar.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li class=&quot;mega-menu menu-5-col&quot;&gt;&lt;a href=&quot;#&quot;&gt;PORTFOLIO&lt;/a&gt;--&gt;             &lt;!--&lt;ul class=&quot;mega-menu-content&quot;&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;GRID STYLE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-4-col.html&quot;&gt;4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-6-col.html&quot;&gt;6 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;TEXT AND SPACE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-3-col.html&quot;&gt;3 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;NO SPACE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-4-col.html&quot;&gt;4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-6-col.html&quot;&gt;6 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;MASONRY STYLE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-space-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-wide-4-col.html&quot;&gt;WIDE 4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-3-col.html&quot;&gt;GRID 3 COLUMNS NO SPACE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-space-wide-4-col.html&quot;&gt;SPACE 4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li class=&quot;menu-title&quot;&gt;&lt;a href=&quot;#&quot;&gt;SINGLE PORTFOLIO&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-horizontal-slide.html&quot;&gt;HORIZONTAL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-vertical-slide.html&quot;&gt;VERTICAL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-small-slide.html&quot;&gt;SMALL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li class=&quot;menu-tabs _pending&quot;&gt;&lt;a href=&quot;#&quot;&gt;SHOP&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-category.html&quot;&gt;CATEGORY&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-category-caro.html&quot;&gt;CATEGORY CARO&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-cart.html&quot;&gt;SHOP CART&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-checkout.html&quot;&gt;CHECKOUT&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-detail-1.html&quot;&gt;DETAIL 1&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-detail-2.html&quot;&gt;DETAIL 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-successfully.html&quot;&gt;PAYMENT SUCCESSFUL&lt;/a&gt;&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;         &lt;!--&lt;/ul&gt;--&gt;         &lt;!--&lt;ul class=&quot;nav-main-menu small-screen&quot;&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;HOME&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-default.html&quot;&gt;DEFAULT&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CORPORATE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-corporate.html&quot;&gt;CORPORATE 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-corporate-2.html&quot;&gt;CORPORATE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-onepage.html&quot;&gt;ONEPAGE&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-menubottom.html&quot;&gt;MENU BOTTOM&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-agency.html&quot;&gt;AGENCY&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;ALTERNATIVE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-alternative.html&quot;&gt;ALTERNATIVE 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-alternative-2.html&quot;&gt;ALTERNATIVE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-slip-screen.html&quot;&gt;SLIPSCREEN&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BUSINESS&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-business.html&quot;&gt;BUSINESS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-business-2.html&quot;&gt;BUSINESS 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CREATIVE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-creative.html&quot;&gt;CREATIVE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-creative-2.html&quot;&gt;CREATIVE 2&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-leftmenu.html&quot;&gt;LEFT MENU&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-portfolio.html&quot;&gt;PORTFOLIO&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BLOG&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-blog.html&quot;&gt;BLOG LARGE IMAGE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-blog-masonry.html&quot;&gt;BLOG MASONRY&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CLASSIC&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-classic.html&quot;&gt;CLASSIC 01&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-classic-2.html&quot;&gt;CLASSIC 02&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHOP&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-1.html&quot;&gt;SHOP 1&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-2.html&quot;&gt;SHOP 2&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-2-caro.html&quot;&gt;SHOP 2 CARO&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-3.html&quot;&gt;SHOP 3&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-shop-3-caro.html&quot;&gt;SHOP 3 CARO&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;PAGES&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-about.html&quot;&gt;ABOUT US&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-about-2.html&quot;&gt;ABOUT US 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-contact.html&quot;&gt;CONTACT US&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-service.html&quot;&gt;SERVICES&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-service-2.html&quot;&gt;SERVICES 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-ourteam.html&quot;&gt;OUR TEAM&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-ourteam-2.html&quot;&gt;OUR TEAM 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-clients.html&quot;&gt;OUR CLIENTS&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-login.html&quot;&gt;LOGIN&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-register.html&quot;&gt;REGISTER&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction.html&quot;&gt;UNDER CONSTRUCTION&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction2.html&quot;&gt;UNDER CONSTRUCTION 02&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;page-underconstruction3.html&quot;&gt;UNDER CONSTRUCTION 03&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;404.html&quot;&gt;404 ERROR&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;403.html&quot;&gt;403 ACCESS DENIED&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;500.html&quot;&gt;500 SERVER ERROR&lt;/a&gt;&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FEATURES&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 01&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-button.html&quot;&gt;BUTTON&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-tabs.html&quot;&gt;TABS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-accordion.html&quot;&gt;ACCORDION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-message-box.html&quot;&gt;MESSAGE BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-blog-posts.html&quot;&gt;BLOG POSTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-call-to-action.html&quot;&gt;CALL TO ACTION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-coverbox.html&quot;&gt;COVER BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-team.html&quot;&gt;OUR TEAM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-portfolio.html&quot;&gt;PORTFOLIO&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-clients.html&quot;&gt;PARTNERS&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 02&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-icon-box.html&quot;&gt;ICON BOX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-icon-lists.html&quot;&gt;ICON LIST&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-contact-form.html&quot;&gt;CONTACT FORM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-parallax.html&quot;&gt;PARALLAX&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-slider.html&quot;&gt;SLIDER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-counter.html&quot;&gt;COUNTER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-quotes.html&quot;&gt;QUOTES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-piechart.html&quot;&gt;PIE CHART&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-horizontal-progressbar.html&quot;&gt;HORIZONTAL PROGRESSBAR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-vertical-progressbar.html&quot;&gt;VERTICAL PROGRESSBAR&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHORTCODES 03&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-typography.html&quot;&gt;TYPOGRAPHY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-blockquotes.html&quot;&gt;BLOCK QUOTES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-hightlights.html&quot;&gt;HIGHLIGHTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-separator.html&quot;&gt;SEPARATOR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-dropcaps.html&quot;&gt;DROPCAPS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-column.html&quot;&gt;COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-heading.html&quot;&gt;HEADINGS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-testimonials.html&quot;&gt;TESTIMONIALS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-pricing-table.html&quot;&gt;PRICING TABLES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;shortcode-interactive-banner.html&quot;&gt;BANNER&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FEATURES&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BOOTSTRAP 3 GRID SYSTEM&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;HTML5 &amp; CSS3 ANIMATION&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;AUTOMATE YOUR WORKFLOW&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;NODE TEMPLATE ENGINE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;LESS PRE-PROCESSOR&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;DROPDOWN &amp; MEGAMENU&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;20 HEADER AND FOOTER&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;03 COMINGSOON PAGES&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;20+ PORTFOLIO DESIGN&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;15 BLOG DESIGN&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FEATURES&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FONT AWESOME READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;+1000 ICON FONTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FULLY RESPONSIVE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;TONS OF ELEMENTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;RETINA READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;FREE GOOLGE FONTS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;PARALAX BACKGROUND&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;WIDE &amp; BOXED LAYOUT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-leftmenu.html&quot;&gt;LEFT MENU READY&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;homepage-slip-screen.html&quot;&gt;SLIP SCREEN&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;BLOG&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;CLASSIC LAYOUT&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;GRID LAYOUT&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-2-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;MASONRY&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-masonry-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;GRAY&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-fullwidth.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-sidebar-left.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-gray-sidebar-right.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SINGLE POST&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail.html&quot;&gt;FULLWIDTH&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail-left-sidebar.html&quot;&gt;SIDEBAR LEFT&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;blog-post-detail-right-sidebar.html&quot;&gt;SIDEBAR RIGHT&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;PORTFOLIO&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;GRID STYLE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-4-col.html&quot;&gt;4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-grid-wide-6-col.html&quot;&gt;6 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;TEXT AND SPACE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-3-col.html&quot;&gt;3 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-text-and-space-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;NO SPACE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-2-col.html&quot;&gt;2 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-4-col.html&quot;&gt;4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-4-col.html&quot;&gt;4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-5-col.html&quot;&gt;5 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-nospace-wide-6-col.html&quot;&gt;6 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;MASONRY STYLE&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-space-3-col.html&quot;&gt;3 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-wide-4-col.html&quot;&gt;WIDE 4 COLUMNS&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-3-col.html&quot;&gt;GRID 3 COLUMNS NO SPACE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-masonry-space-wide-4-col.html&quot;&gt;SPACE 4 COLUMNS WIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SINGLE PORTFOLIO&lt;/a&gt;--&gt;                 &lt;!--&lt;ul&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-horizontal-slide.html&quot;&gt;HORIZONTAL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-vertical-slide.html&quot;&gt;VERTICAL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                   &lt;!--&lt;li&gt;&lt;a href=&quot;portfolio-single-small-slide.html&quot;&gt;SMALL SLIDE&lt;/a&gt;&lt;/li&gt;--&gt;                 &lt;!--&lt;/ul&gt;--&gt;               &lt;!--&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;           &lt;!--&lt;li&gt;&lt;a href=&quot;#&quot;&gt;SHOP&lt;/a&gt;--&gt;             &lt;!--&lt;ul&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-category.html&quot;&gt;CATEGORY&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-category-caro.html&quot;&gt;CATEGORY CARO&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-cart.html&quot;&gt;SHOP CART&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-checkout.html&quot;&gt;CHECKOUT&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-detail-1.html&quot;&gt;DETAIL 1&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-detail-2.html&quot;&gt;DETAIL 2&lt;/a&gt;&lt;/li&gt;--&gt;               &lt;!--&lt;li&gt;&lt;a href=&quot;shop-successfully.html&quot;&gt;PAYMENT SUCCESSFUL&lt;/a&gt;&lt;/li&gt;--&gt;             &lt;!--&lt;/ul&gt;--&gt;           &lt;!--&lt;/li&gt;--&gt;         &lt;!--&lt;/ul&gt;--&gt;         &lt;!--&lt;div class=&quot;nav-hamburger-wrapper&quot;&gt;--&gt;           &lt;!--&lt;div class=&quot;cell-vertical-wrapper&quot;&gt;--&gt;             &lt;!--&lt;div class=&quot;cell-middle&quot;&gt;--&gt;               &lt;!--&lt;div class=&quot;nav-hamburger&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;--&gt;             &lt;!--&lt;/div&gt;--&gt;           &lt;!--&lt;/div&gt;--&gt;         &lt;!--&lt;/div&gt;--&gt;         &lt;!--&lt;div class=&quot;nav-top-cart&quot;&gt;&lt;/div&gt;--&gt;       &lt;!--&lt;/div&gt;--&gt;       &lt;!--&lt;form class=&quot;nav-search-form&quot;&gt;--&gt;         &lt;!--&lt;div class=&quot;content-wrapper&quot;&gt;&lt;img src=&quot;../../../assets/images/logo-5-white.svg&quot; alt=&quot;logo&quot; class=&quot;logo-light&quot;&gt;&lt;img src=&quot;../../../assets/images/logo-5.svg&quot; alt=&quot;logo&quot; class=&quot;logo-dark&quot;&gt;--&gt;           &lt;!--&lt;div class=&quot;content&quot;&gt;--&gt;             &lt;!--&lt;input type=&quot;search&quot; name=&quot;search&quot; value=&quot;&quot; placeholder=&quot;Write search...&quot; class=&quot;form-control&quot;&gt;--&gt;             &lt;!--&lt;button&gt;SEARCH&lt;/button&gt;--&gt;           &lt;!--&lt;/div&gt;&lt;a href=&quot;#&quot; class=&quot;search-trigger-hide&quot;&gt;&lt;/a&gt;--&gt;         &lt;!--&lt;/div&gt;--&gt;       &lt;!--&lt;/form&gt;--&gt;     &lt;!--&lt;/div&gt;--&gt;   &lt;!--&lt;/nav&gt;--&gt; &lt;!--&lt;/div&gt;m</find>
+      <find>nav</find>
+      <find>assets</find>
+      <find>gi</find>
+      <find>HOMEPAGE ALTERNATIVE</find>
+      <find>save</find>
+      <find>jquery</find>
+      <find>backgroun</find>
+      <find>newUs</find>
+      <find>para</find>
+      <find>DELETE</find>
+      <find>button</find>
+      <find>onDeleteBook</find>
+      <find>Login to your account below</find>
+      <find>search</find>
+      <find>searchCompo</find>
+      <find>loginForm</find>
+      <find>http</find>
+      <find>var</find>
+      <find>Email</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/</replace>
+      <replace>../../../favicon</replace>
+      <replace>assets/favicon</replace>
+      <replace>assets/vendors</replace>
+      <replace>assets/images</replace>
+      <replace>../../../assets/favicon</replace>
+      <replace>../../../assets/vendors</replace>
+      <replace>../../../assets/images</replace>
+      <replace>../../../assets</replace>
+      <replace>let</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/angular-src/src/app/components</dir>
+      <dir>$PROJECT_DIR$/angular-src/src/assets/images</dir>
+      <dir>$PROJECT_DIR$/angular-src/src/assets/vendors/bootstrap-progressbar/less</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="cards" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/models/users.js" />
-        <option value="$PROJECT_DIR$/config/passport.js" />
-        <option value="$PROJECT_DIR$/angular-src/angular-cli.json" />
-        <option value="$PROJECT_DIR$/angular-src/.angular-cli.json" />
-        <option value="$PROJECT_DIR$/angular-src/src/index.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/package.json" />
+        <option value="$PROJECT_DIR$/angular-src/src/assets/vendors/bootstrap/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/search/search.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/search/search.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/assets/css/main.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/small-footer/small-footer.component.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/footer/footer.component.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.css" />
+        <option value="$PROJECT_DIR$/models/book.js" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/world/world.component.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/world/world.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/node_modules/@angular/core/src/linker/view_container_ref.d.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/login/dialog-overview-example-dialog.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.css" />
         <option value="$PROJECT_DIR$/angular-src/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.ts" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/services/validate.service.ts" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
-        <option value="$PROJECT_DIR$/models/user.js" />
         <option value="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.ts" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.css" />
         <option value="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.ts" />
         <option value="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.html" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/guards/auth.guard.ts" />
         <option value="$PROJECT_DIR$/angular-src/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/angular-src/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar-nosearch/navbar-nosearch.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/main.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/styles.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/how-it-works/how-it-works.component.html" />
         <option value="$PROJECT_DIR$/config/database.js" />
+        <option value="$PROJECT_DIR$/services/email.js" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/about/about.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.html" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/navbar-nosearch/navbar-nosearch.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/book/book.component.css" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/book/book.component.ts" />
+        <option value="$PROJECT_DIR$/angular-src/src/app/components/book/book.component.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/angular-src/src/index.html" />
+        <option value="$PROJECT_DIR$/config/email.js" />
+        <option value="$PROJECT_DIR$/routes/books.js" />
+        <option value="$PROJECT_DIR$/services/sendgridService.js" />
       </list>
     </option>
   </component>
@@ -93,9 +277,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="684" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -112,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -123,6 +304,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meanApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meanApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meanApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,34 +345,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="angular-src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -197,59 +364,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meanApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,11 +382,53 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="editor.config.accepted" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/public/index.html&#10;stylesheet&#9;ACTION&#9;NewStylesheetFile&#10;styles.css&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/angular-src/src/assets/fonts/wolverine/styles.css&#10;styles.c&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/angular-src/src/styles.css&#10;less/&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/angular-src/src/assets/vendors/bootstrap-progressbar/less&#10;sticky-nav&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/angular-src/src/assets/less/module/sticky-nav.less&#10;demo-&#9;FILE&#9;file:///Users/martinsaad/Desktop/projects/node/meanApp/angular-src/src/images/demo-home-classic.jpg" />
+    <property name="FullScreen" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="7.10.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular-src/src" />
+      <recent name="$PROJECT_DIR$/angular-src/src/images" />
+      <recent name="$PROJECT_DIR$/angular-src/src/assets" />
+      <recent name="$PROJECT_DIR$/angular-src/src/assets/fonts/wolverine" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/angular-src/src/assets/favicon" />
+      <recent name="$PROJECT_DIR$/angular-src/src/assets/images" />
+      <recent name="$PROJECT_DIR$/angular-src/src/assets/images/svg" />
+      <recent name="$PROJECT_DIR$/angular-src/src/assets" />
+      <recent name="$PROJECT_DIR$/angular-src/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Node.js.App">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -325,7 +488,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration default="false" name="debug" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:4200">
+      <mapping url="webpack:///./src" local-file="$PROJECT_DIR$/angular-src" />
+      <method />
+    </configuration>
     <configuration default="false" name="App" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="SENDGRID_API_KEY" value="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" />
+      </envs>
       <profiling v8-profiler-path="" />
       <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
         <option name="envVars">
@@ -353,8 +523,9 @@
       </EXTENSION>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.App" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.debug" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.App" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -372,29 +543,50 @@
       <updated>1488673171408</updated>
       <workItem from="1488673174879" duration="7687000" />
       <workItem from="1489001799290" duration="54000" />
-      <workItem from="1489001918059" duration="9676000" />
+      <workItem from="1489001918059" duration="16910000" />
+      <workItem from="1491241632516" duration="59000" />
+      <workItem from="1493621661113" duration="11650000" />
+      <workItem from="1493654106991" duration="25712000" />
+      <workItem from="1494362711536" duration="665000" />
+      <workItem from="1494363826550" duration="30637000" />
+      <workItem from="1495785166250" duration="24979000" />
+      <workItem from="1497109242720" duration="28843000" />
+      <workItem from="1498303592799" duration="491000" />
+      <workItem from="1499020651583" duration="13377000" />
+      <workItem from="1501098002586" duration="12603000" />
+      <workItem from="1501531799933" duration="11075000" />
+      <workItem from="1503144885104" duration="2982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17417000" />
+    <option name="totallyTimeSpent" value="187708000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="684" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.284375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112788" sideWeight="0.47032967" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25853658" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25853658" sideWeight="0.4968254" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26704547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112788" sideWeight="0.52967036" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29261363" sideWeight="0.4968254" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28435266" sideWeight="0.5102041" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3536932" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -405,72 +597,98 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../codereview/angular-src/e2e/app.e2e-spec.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/e2e/app.po.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/components/thanks/thanks.component.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/components/thanks/thanks.component.spec.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/services/auth.service.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/services/auth.service.spec.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/app.component.spec.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/app.component.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/app.module.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/components/home/home.component.spec.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/app/components/home/home.component.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/environments/environment.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/environments/environment.prod.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/polyfills.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/test.js" />
+        <option value="$PROJECT_DIR$/../codereview/angular-src/src/main.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/angular-src/src/app/components/facebook/facebook.component.ts</url>
+          <line>22</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/angular-src/src/app/components/facebook/facebook.component.ts</url>
+          <line>19</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/services/email.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="132" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JavascriptDebugType">
+        <watch expression="this.books" language="TypeScript" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/angular-src/angular-cli.json" />
-    <entry file="file://$PROJECT_DIR$/angular-src/package.json">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar-nosearch/navbar-nosearch.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-src/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="e#0#47#0" expanded="false" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/assets/fonts/wolverine/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="93" lean-forward="false" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/register/register.component.spec.ts">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/book/book.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -480,168 +698,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/register/register.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/services/auth.service.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/services/validate.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/register/register.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="52" column="69" lean-forward="false" selection-start-line="52" selection-start-column="69" selection-end-line="52" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/model/Book.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/model/User.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1010">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/assets/favicon/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/assets/favicon/books.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/assets/favicon/favicon-32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/how-it-works/how-it-works.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/about/about.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/search/search.component.ts" />
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/search/search.component.html" />
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/register/register.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.html">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/register/register.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/guards/auth.guard.ts">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="338">
+          <caret line="143" column="2" lean-forward="false" selection-start-line="143" selection-start-column="2" selection-end-line="143" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="293">
+          <caret line="64" column="38" lean-forward="false" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/navbar-nosearch/navbar-nosearch.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="39" lean-forward="false" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/footer/footer.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="20" selection-start-column="94" selection-end-line="21" selection-end-column="13" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1501924724000" expanded="false" signature="2115:2134" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.html">
+    <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/passport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="27" lean-forward="false" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/book/book.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/book/book.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="33" column="79" lean-forward="false" selection-start-line="33" selection-start-column="79" selection-end-line="33" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/app/components/book/book.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-src/src/app/services/auth.service.ts">
+    <entry file="file://$PROJECT_DIR$/angular-src/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-src/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
+    <entry file="file://$PROJECT_DIR$/services/email.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" lean-forward="false" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="160">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/books.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/sendgridService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

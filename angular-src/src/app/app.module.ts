@@ -6,22 +6,40 @@ import {RouterModule, Routes} from '@angular/router'
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { LoginComponent } from './components/login/login.component';
+import {LoginComponent} from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
 import { ValidateService } from './services/validate.service'
 import {FlashMessagesModule} from 'angular2-flash-messages'
 import { AuthService } from './services/auth.service'
 import {AuthGuard} from "./guards/auth.guard";
+import {GoogleBooksService} from "./services/google-books.service";
+import { NotfoundComponent } from './components/notfound/notfound.component';
+import { BookComponent } from './components/book/book.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NavbarNosearchComponent } from './components/navbar-nosearch/navbar-nosearch.component';
+import {InfiniteScrollModule} from "angular2-infinite-scroll";
+import {MdDialogModule} from "@angular/material";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { AboutComponent } from './components/about/about.component';
+import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
 
 
 const appRoutes: Routes = [
   {
     path: '',
     component: HomeComponent
+  },
+  {
+    path: 'book',
+    component: BookComponent
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent,
+    canActivate: [AuthGuard]
   },
   {
     path: 'register',
@@ -32,16 +50,19 @@ const appRoutes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'dashboard',
-    component: DashboardComponent,
-    canActivate: [AuthGuard]
+    path: 'about',
+    component: AboutComponent
   },
   {
-    path: 'profile',
-    component: ProfileComponent,
-    canActivate: [AuthGuard]
+    path: 'how-it-works',
+    component: HowItWorksComponent
+  },
+  {
+    path: '**',
+    component: NotfoundComponent
   }
-]
+];
+
 
 @NgModule({
   declarations: [
@@ -50,20 +71,29 @@ const appRoutes: Routes = [
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    DashboardComponent,
-    ProfileComponent
+    ProfileComponent,
+    NotfoundComponent,
+    BookComponent,
+    FooterComponent,
+    NavbarNosearchComponent,
+    AboutComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
-    FlashMessagesModule
+    FlashMessagesModule,
+    InfiniteScrollModule,
+    MdDialogModule,
+    BrowserAnimationsModule
   ],
   providers: [
     ValidateService,
     AuthService,
-    AuthGuard
+    AuthGuard,
+    GoogleBooksService
   ],
   bootstrap: [AppComponent]
 })

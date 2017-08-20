@@ -1,22 +1,53 @@
-<div class="jumbotron text-center">
-  <h1>MEAN Authentication App</h1>
-  <p class="lead">Welcome to our custom MEAN authentication application built from scratch</p>
-  <div>
-    <a class="btn btn-primary" [routerLink]="['/register']">Register</a> <a class="btn btn-default" [routerLink]="['/login']">Login</a>
-  </div>
-</div>
+<app-navbar></app-navbar>
 
-<div class="row">
-  <div class="col-md-4">
-    <h3>Express Backend</h3>
-    <p>A rock solid Node.js/Express server using Mongoose to organize models and query the database</p>
-  </div>
-  <div class="col-md-4">
-    <h3>Angular-CLI</h3>
-    <p>Angular-CLI to generate components, services and more. Local dev server and easy compilation</p>
-  </div>
-  <div class="col-md-4">
-    <h3>JWT Tokens</h3>
-    <p>Full featured authentication using JSON web tokens. Login and store user data</p>
-  </div>
-</div>
+<main>
+  <header class="index-header">
+    <div data-stellar-background-ratio="0.25" style="background-image: url(../../../assets/images/home.jpg);" class="page-common-background"></div>
+    <div class="cell-vertical-wrapper">
+      <div class="cell-middle">
+        <div class="container">
+          <h2>WELCOME TO</h2>
+          <h1>WOLVERINE MULTIPURPOSE</h1>
+          <p class="font-serif fz-common-2">Create any imaginable design or layout with all the options. Made with love by OSThemes</p>
+          <div class="icon icon-indians-icons-05"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="bgc-gray">
+    <!--<header class="section-header">-->
+      <!--<div class="container">-->
+        <!--<div class="row">-->
+          <!--<div class="col-lg-10 col-lg-offset-1 col-md-12 text-center">-->
+            <!--<h2 class="smb">CHOOSE YOUR FAVOURITE HOMEPAGE BELOW</h2>-->
+            <!--<p class="fz-common-3 font-serif">With one purchase of Wolverine you receive +100 HTML files. You can easy to use as a starting point for your website.</p>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</header>-->
+    <div class="container-fluid">
+      <div *ngIf="books == null">
+        <h3>No books match to search...</h3>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let book of books">
+        <div class="index-demo-item section-block-p">
+          <div class="image-frame">
+            <a [routerLink]="['/book']" [queryParams]="{id: book._id}">
+              <img src="{{book?.imageLink}}" alt="{{book?.title}}" class="img-center">
+            </a>
+          </div>
+          <h5>
+            <a [routerLink]="['/book']" [queryParams]="{id: book._id}">
+              {{book?.title}}
+            </a>
+          </h5>
+          <h5>
+          <img src="../../../assets/images/svg/placeholder.svg" class="map">
+            {{book?.city}}, {{book?.country}}
+          </h5>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>
