@@ -1004,6 +1004,7 @@ var ProfileComponent = (function () {
                     }
                     book.categories = volumeInfo.categories;
                     book.imageLink = volumeInfo.imageLinks.thumbnail;
+                    book.imageLink = book.imageLink.replace('http', 'https');
                     book.language = volumeInfo.language;
                 }
             }
