@@ -19,7 +19,7 @@
             <h2 class="smb">Add a book</h2>
             <br>
             <br>
-            <h5 class="error-message" *ngIf="bookNotFound">We couldn't find the book information, please try again later</h5>
+            <h5 class="error-message" *ngIf="bookNotFound">We couldn't find the book information, please check the ISBN number or try again later</h5>
             <form #bookForm="ngForm" (ngSubmit)="onAddBookSubmit()">
                 <div>
                   <label>ISBN</label>

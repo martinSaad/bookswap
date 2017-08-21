@@ -19,21 +19,27 @@
 
           <div class="container">
             <div class="row">
-              <div class="col-lg-10">
+              <div class="col-lg-10" *ngIf="authService.loggedIn()">
                 <h5>Book owner: {{book?.firstName}} {{book?.lastName}}</h5>
-
               </div>
             </div>
           </div>
 
           <div class="col-lg-6 content-container section-block">
-            <div class="service-button">
+            <div *ngIf="authService.loggedIn(); else elseBlock" class="service-button">
               <button *ngIf="!getBookButton" (click)="getBook()" class="border-btn border-btn-main btn-size-5">Get this book</button>
               <input *ngIf="getBookButton" class="mytext" [(ngModel)]="message" id="message" type="text" value="Hey {{book?.firstName}}, I saw your book {{book?.title}} on Bookswap and I would like to get it.">
               <button *ngIf="getBookButton" (click)="sendEmail()" class="border-btn border-btn-main btn-size-5">Send</button>
               <h3 *ngIf="emailSent">Email has been sent to {{book?.firstName}}!</h3>
               <h3 *ngIf="errorSendingMail" class="err-message">{{errorMessage}}</h3>
             </div>
+            <ng-template #elseBlock>
+              To get this book
+              <a href="/login">login</a>
+              or
+              <a href="/register">register</a>
+            </ng-template>
+
           </div>
         </div>
       </div>
