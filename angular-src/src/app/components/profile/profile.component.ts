@@ -28,7 +28,6 @@ export class ProfileComponent implements OnInit {
   bookNotFound: boolean = false;
 
   constructor(private authService: AuthService,
-              private flushMessage: FlashMessagesService,
               private googleBooksService: GoogleBooksService) { }
 
   ngOnInit() {
@@ -86,13 +85,12 @@ export class ProfileComponent implements OnInit {
 
       this.authService.addBook(book).subscribe(data => {
         if (data.success) {
-          this.flushMessage.show(data.message, {cssClass: 'alert-success', timeout: 3000});
           this.user = data.user;
           this.getBooks();
 
         }
         else {
-          this.flushMessage.show('Something went wrong', {cssClass: 'alert-danger', timeout: 3000});
+          console.log('something went wrong while adding book');
         }
       });
     });
@@ -104,7 +102,7 @@ export class ProfileComponent implements OnInit {
         this.getBooks();
       }
       else{
-        this.flushMessage.show('Could not delete the book. Try again later', {cssClass: 'alert-danger', timeout:3000});
+        console.log('Could not delete the book. Try again later');
       }
     });
   }
