@@ -35,21 +35,18 @@ export class AuthService {
     return this.http.post(this.api+'/books/book', request, {headers: headers}).map(res => res.json());
   }
 
-  sendEmail(to, message, bookTitle, nameTo){
+  sendEmail(to, bookTitle, nameTo){
     this.loadToken();
     let request = {
       user: this.user,
       emailTo: to,
       nameTo: nameTo,
-      message: message,
       bookTitle: bookTitle
     };
 
     let headers = new Headers();
     headers.append('Content-Type', 'application/json');
     headers.append('Authorization', this.authToken);
-    console.log("user, " + JSON.stringify(this.user));
-    console.log("sending email from auth");
     return this.http.post(this.api+'/books/email', request, {headers: headers}).map(res => res.json());
   }
 

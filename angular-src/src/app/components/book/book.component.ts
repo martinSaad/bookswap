@@ -10,8 +10,6 @@ import {AuthService} from "../../services/auth.service";
 export class BookComponent implements OnInit {
 
   book: any;
-  getBookButton: boolean = false;
-  message: string;
   emailSent: boolean = false;
   errorSendingMail: boolean = false;
   errorMessage: string;
@@ -27,13 +25,8 @@ export class BookComponent implements OnInit {
     });
   }
 
-  getBook(){
-    this.getBookButton = true;
-  }
-
   sendEmail(){
-    if (this.message != null){
-      this.authService.sendEmail(this.book.email, this.message, this.book.title, this.book.firstName).subscribe(result => {
+      this.authService.sendEmail(this.book.email, this.book.title, this.book.firstName).subscribe(result => {
         if (result.success == false){
           this.errorSendingMail = true;
           this.errorMessage = 'There was an error while trying to send email, please try again later';
@@ -44,10 +37,4 @@ export class BookComponent implements OnInit {
         }
       });
     }
-    else{
-      this.errorSendingMail = true;
-      this.errorMessage = 'Please fill a message before sending';
-    }
-  }
-
 }

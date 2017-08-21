@@ -100,11 +100,10 @@ router.post('/email', passport.authenticate('jwt', {session:false}), function (r
             nameFrom: user.firstName,
             nameTo: req.body.nameTo,
             emailTo: req.body.emailTo,
-            message: req.body.message,
             bookTitle: req.body.bookTitle
         };
 
-        sendgridService.sendEmail(email.emailFrom, email.nameFrom, email.emailTo, email.nameTo, email.message, email.bookTitle, function (err, response) {
+        sendgridService.sendEmail(email.emailFrom, email.nameFrom, email.emailTo, email.nameTo, email.bookTitle, function (err, response) {
             console.log(response.statusCode);
             console.log(response.body);
             console.log(response.headers);
