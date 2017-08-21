@@ -86,8 +86,8 @@ export class ProfileComponent implements OnInit {
       this.authService.addBook(book).subscribe(data => {
         if (data.success) {
           this.user = data.user;
-          this.getBooks();
-
+          // this.getBooks();
+          location.reload();
         }
         else {
           console.log('something went wrong while adding book');
