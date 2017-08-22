@@ -22,7 +22,7 @@
             <h5 class="error-message" *ngIf="bookNotFound">We couldn't find the book information, please check the ISBN number or try again later</h5>
             <form #bookForm="ngForm" (ngSubmit)="onAddBookSubmit()">
                 <div>
-                  <label>ISBN</label>
+                  <label>ISBN (digits only)</label>
                   <input type="tel" pattern="[0-9]*" name="isbn" [(ngModel)]="isbn" id="isbn" class="form-control"
                          required minlength="10" maxlength="13" #isbn1="ngModel">
                   <div *ngIf="isbn1.errors && (isbn1.dirty || isbn1.touched)"
