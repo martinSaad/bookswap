@@ -12,7 +12,6 @@ import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
 import { ValidateService } from './services/validate.service'
-import {FlashMessagesModule} from 'angular2-flash-messages'
 import { AuthService } from './services/auth.service'
 import {AuthGuard} from "./guards/auth.guard";
 import {GoogleBooksService} from "./services/google-books.service";
@@ -84,7 +83,6 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes),
-    FlashMessagesModule,
     InfiniteScrollModule,
     MdDialogModule,
     BrowserAnimationsModule

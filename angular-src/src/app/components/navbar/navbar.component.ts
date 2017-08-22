@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {FlashMessagesService} from "angular2-flash-messages";
 import {Router} from "@angular/router";
 import {AuthService} from "../../services/auth.service";
 import {HomeComponent} from "../home/home.component";

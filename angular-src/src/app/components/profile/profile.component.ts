@@ -1,9 +1,7 @@
 import {Component, OnInit} from "@angular/core";
 import {AuthService} from "../../services/auth.service";
-import {FlashMessagesService} from "angular2-flash-messages";
 import {User} from "../../model/User";
 import {GoogleBooksService} from "../../services/google-books.service";
-import {Router} from "@angular/router";
 import {Book} from "../../model/Book";
 
 @Component({

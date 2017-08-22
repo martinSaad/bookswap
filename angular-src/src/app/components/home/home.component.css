@@ -6367,12 +6367,6 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   }
 }
 @media (max-width: 991px ) {
-  .slip-about .item-content-wrapper {
-    background: url("../../../assets/images/slip-bg-3.jpg") no-repeat right top;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-  }
   .slip-about .item-content-wrapper:after {
     content: "";
     position: absolute;
@@ -6470,12 +6464,6 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   }
 }
 @media (max-width: 991px ) {
-  .slip-portfolio .item-content-wrapper {
-    background: url("../../../assets/images/slip-bg-4.jpg") no-repeat right top;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-  }
   .slip-portfolio .item-content-wrapper:after {
     content: "";
     position: absolute;
@@ -6570,12 +6558,6 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   }
 }
 @media (max-width: 991px ) {
-  .slip-service .item-content-wrapper {
-    background: url("../../../assets/images/slip-bg-4.jpg") no-repeat right top;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-  }
   .slip-service .item-content-wrapper:after {
     content: "";
     position: absolute;
@@ -6670,12 +6652,6 @@ body.left-menu header.site-header .home-fw-slider.style-4 {
   }
 }
 @media (max-width: 991px ) {
-  .slip-blog .item-content-wrapper {
-    background: url("../../../assets/images/slip-bg-6.jpg") no-repeat right top;
-    background-size: cover;
-    position: relative;
-    z-index: 0;
-  }
   .slip-blog .item-content-wrapper:after {
     content: "";
     position: absolute;
