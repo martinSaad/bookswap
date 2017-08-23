@@ -54,6 +54,7 @@ export class ProfileComponent implements OnInit {
         return false;
       }
       else {
+        this.bookNotFound = false;
         let items = result.items[0];
         let volumeInfo = items.volumeInfo;
         if (volumeInfo) {

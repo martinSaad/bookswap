@@ -44,6 +44,14 @@ export class RegisterComponent implements OnInit {
         if (data.success){
           this.passConfirm = false;
           this.error = false;
+
+          ga('send', 'event', {
+            eventCategory: 'Registration',
+            eventLabel: 'Registration',
+            eventAction: 'Registration',
+            eventValue: user.firstName + ' ' + user.lastName
+          });
+
           this.router.navigate(['/login'])
         }
         else{

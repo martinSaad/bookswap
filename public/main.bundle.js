@@ -966,6 +966,7 @@ var ProfileComponent = (function () {
                 return false;
             }
             else {
+                _this.bookNotFound = false;
                 var items = result.items[0];
                 var volumeInfo = items.volumeInfo;
                 if (volumeInfo) {
@@ -1110,6 +1111,12 @@ var RegisterComponent = (function () {
             if (data.success) {
                 _this.passConfirm = false;
                 _this.error = false;
+                ga('send', 'event', {
+                    eventCategory: 'Registration',
+                    eventLabel: 'Registration',
+                    eventAction: 'Registration',
+                    eventValue: user.firstName + ' ' + user.lastName
+                });
                 _this.router.navigate(['/login']);
             }
             else {
