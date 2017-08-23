@@ -63,7 +63,7 @@ const BookSchema = mongoose.Schema({
 const Book = module.exports = mongoose.model('Book', BookSchema);
 
 module.exports.getAllBooks = function (callback) {
-    Book.find({}, 'title imageLink country city', callback);
+    Book.find({}, 'title imageLink country city', {sort: 'title'}, callback);
 };
 
 module.exports.addBook = function (name, email, book, callback) {
