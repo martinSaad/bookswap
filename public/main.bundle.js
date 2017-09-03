@@ -44,6 +44,7 @@ module.exports = "<div>\n  <router-outlet (deactivate)=\"onDeactivate()\"></rout
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56,9 +57,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var AppComponent = (function () {
-    function AppComponent(router) {
+    function AppComponent(router, metaService) {
         this.router = router;
+        this.metaService = metaService;
+        //set tags
+        this.setTags();
         this.router.events.subscribe(function (event) {
             if (event instanceof __WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* NavigationEnd */]) {
                 ga('set', 'page', event.urlAfterRedirects);
@@ -69,6 +74,12 @@ var AppComponent = (function () {
     AppComponent.prototype.onDeactivate = function () {
         document.body.scrollTop = 0;
     };
+    AppComponent.prototype.setTags = function () {
+        this.metaService.addTag({ property: 'og:title', content: 'BookSwap' });
+        this.metaService.addTag({ property: 'og:image', content: 'https://github.com/martinSaad/bookswap/blob/master/angular-src/src/assets/images/home.jpg' });
+        this.metaService.addTag({ property: 'og:description', content: 'Expand your knowledge & imagination. Swap books for FREE with people around the world.' });
+        this.metaService.addTag({ property: 'og:url', content: 'http://www.bookswap.online' });
+    };
     return AppComponent;
 }());
 AppComponent = __decorate([
@@ -77,10 +88,10 @@ AppComponent = __decorate([
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.css")]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["h" /* Meta */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["h" /* Meta */]) === "function" && _b || Object])
 ], AppComponent);
 
-var _a;
+var _a, _b;
 //# sourceMappingURL=app.component.js.map
 
 /***/ }),
